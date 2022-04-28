@@ -83,7 +83,7 @@ int main(){
 	cout<<"Ingrese un numero double: ";
 	cin>>n;
 	cout<<".:.Convertiendo numero a punto flotante.:.\n";
-	printDoublePoint(n);
+	printDoublePoint(&n);
 	cout<<".:.Visualizando patron de bits en la memoria RAM.:.\n";
 	printDoubleToRAM(&n, 8);
 	return 0;
