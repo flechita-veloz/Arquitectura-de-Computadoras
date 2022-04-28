@@ -48,7 +48,7 @@ string biasedExponent(double n){
 	return str;
 }
 
-void printFlatingPoint(double n){
+void printDoublePoint(double n){
 	string sgn= signBit(n);
 	string exp= biasedExponent(abs(n));
 	string sgf= significand(abs(n));
